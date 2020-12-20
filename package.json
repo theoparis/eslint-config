@@ -1,0 +1,37 @@
+{
+    "name": "@theoparis/eslint-config",
+    "version": "1.0.0",
+    "description": "My eslint configuration",
+    "main": "src/index.js",
+    "private": false,
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/creepinson/eslint-config"
+    },
+    "peerDependencies": {
+        "eslint": "^7.16.0",
+        "@typescript-eslint/eslint-plugin": "4.10.0",
+        "@typescript-eslint/parser": "4.10.0",
+        "eslint-config-prettier": "7.1.0",
+        "eslint-plugin-prettier": "3.3.0",
+        "prettier": "2.2.1"
+    },
+    "devDependencies": {
+        "eslint": "^7.16.0",
+        "@typescript-eslint/eslint-plugin": "4.10.0",
+        "@typescript-eslint/parser": "4.10.0",
+        "eslint-config-prettier": "7.1.0",
+        "eslint-plugin-prettier": "3.3.0",
+        "prettier": "2.2.1"
+    },
+    "keywords": [
+        "eslint",
+        "eslint-config",
+        "formatter-config"
+    ],
+    "author": "Theo Paris",
+    "license": "UNLICENSE"
+}
