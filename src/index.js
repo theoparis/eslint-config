@@ -24,6 +24,10 @@ module.exports = {
     ],
     plugins: ["prettier", "@typescript-eslint"],
     rules: {
+        "prettier/prettier": [
+            "error",
+            { singleQuote: false, tabWidth: 4, printWidth: 80, semi: true },
+        ],
         "@typescript-eslint/explicit-module-boundary-types": "warn",
         "@typescript-eslint/no-empty-function": 0,
         curly: ["warn", "multi"],
