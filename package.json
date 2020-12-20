@@ -1,6 +1,6 @@
 {
     "name": "@theoparis/eslint-config",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "My eslint configuration",
     "main": "src/index.js",
     "private": false,
@@ -17,6 +17,7 @@
         "@typescript-eslint/parser": "4.10.0",
         "eslint-config-prettier": "7.1.0",
         "eslint-plugin-prettier": "3.3.0",
+        "typescript": "^4.1.3",
         "prettier": "2.2.1"
     },
     "devDependencies": {
@@ -25,6 +26,7 @@
         "@typescript-eslint/parser": "4.10.0",
         "eslint-config-prettier": "7.1.0",
         "eslint-plugin-prettier": "3.3.0",
+        "typescript": "^4.1.3",
         "prettier": "2.2.1"
     },
     "keywords": [

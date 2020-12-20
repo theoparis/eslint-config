@@ -25,6 +25,7 @@ module.exports = {
     plugins: ["prettier", "@typescript-eslint"],
     rules: {
         "@typescript-eslint/explicit-module-boundary-types": "warn",
+        "@typescript-eslint/no-empty-function": 0,
         curly: ["warn", "multi"],
         quotes: [2, "double"],
     },
