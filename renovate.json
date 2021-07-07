@@ -1,10 +1,6 @@
 {
-    "extends": [
-        "config:base"
-    ],
+    "extends": ["config:base", "group:monorepos", "group:definitelyTyped"],
     "includeForks": true,
     "dependencyDashboard": true,
-    "schedule": [
-        "every weekend"
-    ]
+    "schedule": ["every weekend"]
 }
