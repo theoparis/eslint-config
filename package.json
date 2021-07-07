@@ -1,6 +1,6 @@
 {
     "name": "@theoparis/eslint-config",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "My eslint configuration",
     "main": "src/index.js",
     "private": false,
