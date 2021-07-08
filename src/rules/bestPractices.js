@@ -31,7 +31,6 @@ module.exports = {
         ],
         "no-console": 0,
         // Stylistic choices
-        "func-style": ["error", "expression"],
         "prefer-arrow/prefer-arrow-functions": [
             "error",
             {
@@ -40,6 +39,7 @@ module.exports = {
                 classPropertiesAllowed: false,
             },
         ],
+        "arrow-body-style": ["error", "as-needed"],
         curly: ["error", "multi"],
         "arrow-body-style": [2, "as-needed"],
         "comma-dangle": [2, "never"],
