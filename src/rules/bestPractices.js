@@ -1,5 +1,6 @@
 module.exports = {
     extends: ["eslint:recommended"],
+    plugins: ["prefer-arrow"],
     rules: {
         "no-restricted-syntax": [
             2,
