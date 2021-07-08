@@ -20,6 +20,7 @@ module.exports = isTypescriptInstalled
                   rules: {
                       "@typescript-eslint/explicit-function-return-type": 0, // Prefer TS' type inference
                       "@typescript-eslint/no-empty-function": 0,
+                      "@typescript-eslint/explicit-module-boundary-types": 0,
                   },
               },
               {
