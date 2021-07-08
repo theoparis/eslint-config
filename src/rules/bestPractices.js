@@ -36,7 +36,7 @@ module.exports = {
             "error",
             {
                 disallowPrototype: true,
-                singleReturnOnly: false,
+                singleReturnOnly: true,
                 classPropertiesAllowed: false,
             },
         ],
