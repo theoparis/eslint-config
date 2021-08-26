@@ -1,7 +1,6 @@
 module.exports = {
     extends: [
         "./rules/bestPractices",
-        "./rules/imports",
         "./rules/react",
         "./rules/prettier",
         "./rules/typescript",
