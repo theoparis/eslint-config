@@ -1,16 +1,7 @@
 module.exports = {
     settings: {
         "import/resolver": {
-            node: {
-                extensions: [
-                    "js",
-                    "jsx",
-                    "ts",
-                    "tsx",
-                    "glsl",
-                    "wasm"
-                ]
-            }
+            "typescript": {}
         }
     },
     extends: ["eslint:recommended", "plugin:import/recommended", "plugin:import/typescript"],

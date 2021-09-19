@@ -40,5 +40,8 @@
         "formatter-config"
     ],
     "author": "Theo Paris",
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "eslint-import-resolver-typescript": "^2.5.0"
+    }
 }
