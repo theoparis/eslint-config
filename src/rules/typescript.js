@@ -1,13 +1,5 @@
-// https://github.com/facebook/create-react-app/issues/8936
-let isTypescriptInstalled = true;
-try {
-    require.resolve("typescript");
-} catch (err) {
-    isTypescriptInstalled = false;
-}
-
-module.exports = isTypescriptInstalled
-    ? {
+module.exports =
+    {
           overrides: [
               {
                   files: ["*.ts", "*.tsx"],
@@ -32,4 +24,3 @@ module.exports = isTypescriptInstalled
               },
           ],
       }
-    : {};

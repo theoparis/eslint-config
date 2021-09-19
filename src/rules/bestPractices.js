@@ -1,6 +1,20 @@
 module.exports = {
-    extends: ["eslint:recommended"],
-    plugins: ["prefer-arrow"],
+    settings: {
+        "import/resolver": {
+            node: {
+                extensions: [
+                    "js",
+                    "jsx",
+                    "ts",
+                    "tsx",
+                    "glsl",
+                    "wasm"
+                ]
+            }
+        }
+    },
+    extends: ["eslint:recommended", "import/recommended", "import/typescript"],
+    plugins: ["prefer-arrow", "import"],
     rules: {
         "no-restricted-syntax": [
             2,
