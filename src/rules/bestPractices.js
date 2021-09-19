@@ -13,7 +13,7 @@ module.exports = {
             }
         }
     },
-    extends: ["eslint:recommended", "import/recommended", "import/typescript"],
+    extends: ["eslint:recommended", "plugin:import/recommended", "plugin:import/typescript"],
     plugins: ["prefer-arrow", "import"],
     rules: {
         "no-restricted-syntax": [
