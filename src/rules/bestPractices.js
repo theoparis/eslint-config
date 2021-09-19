@@ -1,11 +1,6 @@
 module.exports = {
-    settings: {
-        "import/resolver": {
-            "typescript": {}
-        }
-    },
-    extends: ["eslint:recommended", "plugin:import/recommended", "plugin:import/typescript"],
-    plugins: ["prefer-arrow", "import"],
+    extends: ["eslint:recommended"],
+    plugins: ["prefer-arrow"],
     rules: {
         "no-restricted-syntax": [
             2,
