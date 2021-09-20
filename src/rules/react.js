@@ -1,6 +1,6 @@
 module.exports = {
-    extends: ["plugin:react/recommended", "plugin:jsx-a11y/recommended"],
-    plugins: ["react", "react-hooks", "jsx-a11y"],
+    extends: ["plugin:react/recommended"],
+    plugins: ["react", "react-hooks"],
     settings: {
         react: {
             // This should be the default soon:
@@ -37,9 +37,5 @@ module.exports = {
         "react-hooks/rules-of-hooks": 2,
         // Checks effect dependencies
         "react-hooks/exhaustive-deps": 1,
-        // Accessibility rules
-        "jsx-a11y/accessible-emoji": 0,
-        "jsx-a11y/anchor-is-valid": 1,
-        "jsx-a11y/no-autofocus": 0,
     },
 };
