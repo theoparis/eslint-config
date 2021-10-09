@@ -1,3 +1,3 @@
-const config = require("./src/old");
+const config = require("./src/index.js");
 
 module.exports = { ...config };

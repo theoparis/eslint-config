@@ -1,9 +1,9 @@
 module.exports = {
     extends: [
-        "./rules/bestPractices",
-        "./rules/react",
-        "./rules/prettier",
-        "./rules/typescript",
+        "./rules/bestPractices.cjs",
+        "./rules/react.cjs",
+        "./rules/prettier.cjs",
+        "./rules/typescript.cjs",
     ].map(require.resolve),
     plugins: [],
     overrides: [],
