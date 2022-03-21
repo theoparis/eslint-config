@@ -1,0 +1,20 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "errno": 2,
+    "code": "ELIFECYCLE",
+    "pkgid": "@theoparis/eslint-config@1.0.2",
+    "stage": "lint",
+    "script": "eslint --fix src/**/*.js",
+    "pkgname": "@theoparis/eslint-config",
+    "err": {
+      "name": "pnpm",
+      "message": "@theoparis/eslint-config@1.0.2 lint: `eslint --fix src/**/*.js`\nExit status 2",
+      "code": "ELIFECYCLE",
+      "stack": "pnpm: @theoparis/eslint-config@1.0.2 lint: `eslint --fix src/**/*.js`\nExit status 2\n    at EventEmitter.<anonymous> (/home/theo/.n/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:105724:20)\n    at EventEmitter.emit (node:events:527:28)\n    at ChildProcess.<anonymous> (/home/theo/.n/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:92285:18)\n    at ChildProcess.emit (node:events:527:28)\n    at maybeClose (node:internal/child_process:1090:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)"
+    }
+  },
+  "2 warn pnpm:global": " Local package.json exists, but node_modules missing, did you mean to install?"
+}
