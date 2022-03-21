@@ -2,14 +2,13 @@ module.exports = {
     extends: [
         "./rules/bestPractices.cjs",
         "./rules/react.cjs",
-        "./rules/prettier.cjs",
         "./rules/typescript.cjs",
     ].map(require.resolve),
     plugins: [],
     overrides: [],
     parser: "@typescript-eslint/parser",
     parserOptions: {
-        ecmaVersion: 2020,
+        ecmaVersion: 2021,
         ecmaFeatures: {
             jsx: true,
             impliedStrict: true,
@@ -20,6 +19,6 @@ module.exports = {
         node: true,
         jest: true,
         es6: true,
-        es2020: true,
+        esnext: true,
     },
 };
